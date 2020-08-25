@@ -1,0 +1,30 @@
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Visit Timeline</th>
+                <th *ngFor="let item of timeLineArray">
+                    {{item.monthName}}, {{item.year}}
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>PCP</td>
+                <td *ngFor="let item of timeLineArray"> </td>
+            </tr>
+            <tr>
+                <td>Specialist</td>
+                <td *ngFor="let item of timeLineArray"> </td>
+            </tr>
+            <tr>
+                <td>ER</td>
+                <td *ngFor="let item of timeLineArray"> </td>
+            </tr>
+            <tr>
+                <td>Hospital</td>
+                <td *ngFor="let item of timeLineArray"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
